@@ -12,6 +12,9 @@ header div img {
 /*Navigation toolbar*/
 header ul li, footer ul li {
     list-style: none;
+}
+
+header ul a,footer ul a {
     text-decoration: none;
 }
 
