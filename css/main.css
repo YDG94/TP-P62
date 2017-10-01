@@ -1,70 +1,179 @@
 /*Style css du Site Torque*/
-#wrapper {
-    width: 100%
 
+* {
+    box-sizing: border-box;
 }
 
-/*Banner*/
-header div img {
+article, aside, details, figcaption, figure, footer, header, main, nav, section {
+    display: block;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+}
+
+img {
     max-width: 100%;
 }
 
-/*Navigation toolbar*/
-header ul li, footer ul li {
+/*DESIGN MOBILE FIRST*/
+#wrapper {
+    width: 100%;
+    background-color: black;
+}
+
+/*DEBUT HEADER*/
+/* Barre de navigation */
+#mobile-nav {
+    width: 100%;
+}
+
+.responsive-menu ul {
     list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
-header ul a,footer ul a {
+/* On cache la barre de nav */
+.responsive-menu {
+    display: none;
+}
+
+/* On crée une classe que le javascript insérera au moment où l'utilisateur cliquera sur le menu hamburger */
+.expand {
+    display: block !important
+}
+
+/* Styles menu hamburger */
+.menu-btn {
+    border: 1px solid #FFF;
+    border-bottom: none;
+    background: linear-gradient(to top right, grey 0%, black 100%);
+    padding: 0.5em;
+}
+
+.menu-btn:hover, #recherche:hover, a, #list-iles label:hover, .accordeon-btn:hover {
+    cursor: pointer;
+}
+
+.menu-btn span {
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 8px 0;
+}
+
+.responsive-menu li {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to top right, grey 0%, black 100%);
+    text-align: center;
+    border-bottom: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+}
+
+.responsive-menu li:first-child {
+    border-top: 1px solid #FFF;
+}
+
+.responsive-menu li:last-child {
+    border: none;
+    border-right: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+}
+
+.responsive-menu ul > li > a {
+    display: block;
+    width: 100%;
+    line-height: 50px;
     text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-/* On définit les classes pour chaque largeur de colonne pour la version desktop */
-
-.col-1 {
-    width: 8.33%;
+.responsive-menu ul > li > a:hover {
+    background-color: cyan;
+    cursor: pointer;
 }
 
-.col-2 {
-    width: 16.66%;
+a:active {
+    background-color: purple;
 }
 
-.col-3 {
-    width: 25%;
+a:visited {
+    color: magenta;
 }
 
-.col-4 {
-    width: 33.33%;
+/*FIN HEADER*/
+
+/*DEBUT INDEX*/
+
+/*FIN INDEX*/
+
+/*DEBUT MOTOS*/
+
+/*FIN MOTOS*/
+
+/*DEBUT LOG IN*/
+
+/*FIN LOG IN*/
+
+/*DEBUT FOOTER*/
+footer {
+    border: 1px solid #FFF;
 }
 
-.col-5 {
-    width: 41.66%;
+footer p {
+    text-align:center;
+    color:#FFF;
 }
 
-.col-6 {
-    width: 50%;
+footer li h4 {
+    text-decoration:underline;
+    color:#FFF;
 }
 
-.col-7 {
-    width: 58.33%;
+footer > div > ul {
+    list-style: none;
+    padding-left: 0;
 }
 
-.col-8 {
-    width: 66.66%;
+footer li {
+    text-align: center;
 }
 
-.col-9 {
-    width: 75%;
+footer li h4 {
+    text-decoration: underline;
 }
 
-.col-10 {
-    width: 83.33%;
+footer ul a {
+    text-decoration: none;
+    color: #FFF;
 }
 
-.col-11 {
-    width: 91.66%;
+#social {
+    display: flex;
+    justify-content: space-around;
 }
 
-.col-12 {
+.fleche {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: #FFF;
+    opacity: 0.4;
+}
+
+/*FIN FOOTER*/
+
+/*Grille version mobile*/
+/* On cible tous les éléments ayant un attribut class qui contiennent col- pour la version mobile */
+[class*="col-"] {
     width: 100%;
 }
 
@@ -79,9 +188,41 @@ header ul a,footer ul a {
     display: block; /*Force un retour à la ligne*/
 }
 
-/* Styles version tablette */
-@media only screen and (max-width: 992px) {
+/*VERSION TABLETTE*/
+@media only screen and (min-width: 768px) {
 
+    .menu-btn {
+        display: none;
+    }
+
+    .responsive-menu {
+        display: block;
+    }
+
+    .responsive-menu li {
+        display: inline-block;
+        width: 25%;
+        margin-left: -4.30px;
+        border-bottom: none;
+        border-right: none;
+        border-top: 1px solid #FFF;
+    }
+
+    .responsive-menu li:nth-child(1) {
+        border-left: 5px solid #FFF;
+    }
+
+    .responsive-menu li:last-child {
+        border-top: 1px solid #FFF;
+    }
+
+    #social {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    /*Grille version tablette*/
     /* On définit les classes pour chaque largeur de colonne pour la version tablette */
     .col-m-1 {
         width: 8.33%;
@@ -132,11 +273,63 @@ header ul a,footer ul a {
     }
 }
 
-/* Styles version mobile */
-@media only screen and (max-width: 768px) {
+/*VERSION DESKTOP*/
+@media only screen and (min-width: 992px) {
 
-    /* On cible tous les éléments ayant un attribut class qui contiennent col- pour la version mobile */
-    [class*="col-"] {
+    /*Grille version desktop*/
+    /* On définit les classes pour chaque largeur de colonne pour la version desktop */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
         width: 100%;
     }
 }
+
+
+
+
+
+
+

@@ -16,6 +16,7 @@ $nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' 
     <meta property="og:description" content=""/>
     <meta property="og:image" content=""/>
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://use.fontawesome.com/639c474b7d.js"></script>
 </head>
 <body>
 <div id="wrapper">
@@ -24,7 +25,18 @@ $nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' 
         <h1>Tork</h1>
         <div><img src="images/banner.jpg" alt="Bannière du site Tork"/></div>
 
-        <nav>
+        <!-- Barre de navigation -->
+        <div id="mobile-nav">
+
+            <!-- Menu hamburger -->
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- Fin menu hamburger -->
+
+            <nav class="responsive-menu">
             <ul>
                 <?php foreach ($nav as $link => $url) { ?>
                     <li><a href="<?= $url ?>"><?= $link ?></a></li>
