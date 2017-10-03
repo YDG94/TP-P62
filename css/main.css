@@ -17,6 +17,16 @@ img {
     max-width: 100%;
 }
 
+/*tyle des input*/
+input {
+    border-radius: 5px;
+}
+
+input:focus,textarea:focus {
+    background-color: cornflowerblue;
+    outline: none;
+}
+
 /*DESIGN MOBILE FIRST*/
 #wrapper {
     width: 100%;
@@ -54,7 +64,7 @@ img {
     padding: 0.5em;
 }
 
-.menu-btn:hover, #recherche:hover, a, #list-iles label:hover, .accordeon-btn:hover {
+.menu-btn:hover, #recherche:hover, a, .accordeon-btn:hover, input[type="submit"]:hover, input[type="reset"]:hover {
     cursor: pointer;
 }
 
@@ -112,7 +122,73 @@ a:visited {
 /*FIN HEADER*/
 
 /*DEBUT INDEX*/
+/* SLIDER */
+#overflow {
+    width:100%;
+    overflow:hidden;
+}
 
+.figure img {
+    width:100%;
+}
+
+.container-figure {
+    width:300%;
+}
+
+.figure {
+    float:left;
+    max-width:33.33%;
+    position:relative;
+
+}
+
+.figure p {
+    margin:-3.85em auto;
+    opacity:0.7;
+    width:100%;;
+}
+
+#active {
+    text-align:center;
+}
+
+#active label {
+    display:inline-block;
+    width:25px;
+    height:25px;
+    background:#ff6666;
+    border-radius:50%;
+}
+
+#active label:hover {
+    cursor:pointer;
+}
+
+#container-slideshow > input {
+    display:none;
+}
+
+#slide1:checked ~ #slideshow .container-figure {
+    margin-left:0;
+}
+
+#slide2:checked ~ #slideshow .container-figure {
+    margin-left:-100%;
+}
+
+#slide3:checked ~ #slideshow .container-figure {
+    margin-left:-200%;
+}
+
+#slideshow .container-figure {
+    transition:all 1s ease;
+}
+
+.figure p {
+    position:absolute;
+}
+/* FIN SLIDER */
 /*FIN INDEX*/
 
 /*DEBUT MOTOS*/
@@ -123,19 +199,63 @@ a:visited {
 
 /*FIN LOG IN*/
 
+/*DEBUT CONTACT */
+#contact fieldset {
+    background: linear-gradient(grey, black);
+    border:none;
+}
+
+#contact h2 {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#contact label {
+    color: #fff;
+    width: 100%;
+    display: block;
+    margin: 0.5em auto;
+    text-decoration: underline;
+}
+
+#contact input:nth-of-type(-n+3), #contact textarea {
+    width: 100%;
+    height: 50px;
+    margin: 0.5em auto;
+}
+
+input[type="submit"], input[type="reset"] {
+    background: linear-gradient(black, grey);
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+#contact textarea {
+    height:100px;
+}
+
+#contact input:nth-of-type(n+4) {
+    display: block;
+    margin: 0.5em auto;
+    height: 50px;
+}
+
+/*FIN CONTACT */
+
 /*DEBUT FOOTER*/
 footer {
     border: 1px solid #FFF;
 }
 
 footer p {
-    text-align:center;
-    color:#FFF;
+    text-align: center;
+    color: #FFF;
 }
 
 footer li h4 {
-    text-decoration:underline;
-    color:#FFF;
+    text-decoration: underline;
+    color: #FFF;
 }
 
 footer > div > ul {
@@ -220,6 +340,26 @@ footer ul a {
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-around;
+    }
+
+    #contact label {
+        color: #fff;
+        width: 100%;
+        display: block;
+        margin: 0.5em auto;
+        text-decoration: underline;
+    }
+
+    #contact input:nth-of-type(-n+3), #contact textarea {
+        width: 25%;
+        height: 50px;
+        margin: 0.5em auto;
+    }
+
+    #contact input:nth-of-type(n+4) {
+        display: block;
+        margin: 0.5em 0;
+        height: 50px;
     }
 
     /*Grille version tablette*/
