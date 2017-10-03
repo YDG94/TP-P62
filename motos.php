@@ -1,4 +1,5 @@
 <?php
+$title='Motos | Tork Motorcycle';
 require_once('views/header.php');
 ?>
 

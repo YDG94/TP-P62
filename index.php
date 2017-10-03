@@ -1,4 +1,5 @@
 <?php
+$title='Tork | Motorcycle';
 require_once('views/header.php');
 
 ?>
@@ -66,6 +67,10 @@ require_once('views/header.php');
     <!-- End conteneur Slider -->
 
     <!--    Paragraphe de présentation-->
+    <section id="presentation">
+        <h2>La liberté n'a pas de prix, alors foncez...</h2>
+        <p></p>
+    </section>
 
 
 

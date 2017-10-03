@@ -1,4 +1,4 @@
-/*Style css du Site Torque*/
+/*Style css du Site Tork*/
 
 * {
     box-sizing: border-box;
@@ -17,7 +17,7 @@ img {
     max-width: 100%;
 }
 
-/*tyle des input*/
+/*Style des input*/
 input {
     border-radius: 5px;
 }
@@ -34,6 +34,13 @@ input:focus,textarea:focus {
 }
 
 /*DEBUT HEADER*/
+
+h1 {
+    color:#fff;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 3.5em;
+}
+
 /* Barre de navigation */
 #mobile-nav {
     width: 100%;

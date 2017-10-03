@@ -5,7 +5,7 @@ $nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' 
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Tork</title>
+    <title><?= $title?></title>
     <meta name="author" content="Dimitri Guillaume and Henoch Ndaya">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -16,13 +16,15 @@ $nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' 
     <meta property="og:description" content=""/>
     <meta property="og:image" content=""/>
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Jim+Nightshade" rel="stylesheet">
     <script src="https://use.fontawesome.com/639c474b7d.js"></script>
+    <script src="script/main.js"></script>
 </head>
 <body>
 <div id="wrapper">
     <!--DÉBUT HEADER-->
     <header>
-        <h1>Tork</h1>
+        <h1>Tork Motorcycle</h1>
         <div><img src="images/banner.jpg" alt="Bannière du site Tork"/></div>
 
         <!-- Barre de navigation -->

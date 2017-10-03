@@ -14,7 +14,7 @@ $foot_nav = array('Nous contacter' => 'contact.php', 'Notre boutique' => '', 'Pl
 
     <!-- Adresse -->
     <div itemscope itemtype="http://schema.org/PostalAddress" class="col-m-4">
-        <p><span itemprop="streetAddress">752 Avenue Léo-Lacombe,<br>3ème étage</span>, <span
+        <p><span itemprop="streetAddress">752 Avenue Léo-Lacombe<br></span> <span
                     itemprop="addressLocality">Laval</span> <span itemprop="addressRegion">QC</span>, <span
                     itemprop="postalCode">H7N 3Y6</span><br><span
                     itemprop="telephone">&lpar;514&rpar; 878-4530</span><br><span itemprop="email">tork-laval&commat;yahoo.com</span>
@@ -41,6 +41,11 @@ $foot_nav = array('Nous contacter' => 'contact.php', 'Notre boutique' => '', 'Pl
 </footer>
 <!--FIN ENTÈTE-->
 </div>
+<script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+        crossorigin="anonymous"></script>
+<script src="script/main.js"></script>
 </body>
 </html>
 

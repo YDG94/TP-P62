@@ -1,10 +1,10 @@
 <?php
+$title='Contact | Tork Motorcycle';
 require_once('views/header.php');
 //var_dump($_SERVER['REQUEST_METHOD']);
 //var_dump($_POST);
 
 $input_full = array_key_exists('nom', $_POST) && array_key_exists('prenom', $_POST) && array_key_exists('courriel', $_POST);
-
 ?>
 
     <main id="contact">
