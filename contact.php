@@ -1,5 +1,5 @@
 <?php
-$title='Contact | Tork Motorcycle';
+$title = 'Contact | Tork Motorcycle';
 require_once('views/header.php');
 //var_dump($_SERVER['REQUEST_METHOD']);
 //var_dump($_POST);
@@ -26,9 +26,9 @@ $input_full = array_key_exists('nom', $_POST) && array_key_exists('prenom', $_PO
                 <input type="submit" value="Envoyer">
                 <input type="reset" value="Réinitialiser">
             </fieldset>
-
-
         </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.77779911217!2d-73.70751678445517!3d45.554795279102095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9226b2c0b46e5%3A0x4c215aa3c2ee74ec!2s752+Avenue+L%C3%A9o-Lacombe%2C+Laval%2C+QC!5e0!3m2!1sfr!2sca!4v1507121481341"
+                frameborder="0" allowfullscreen></iframe>
     </main>
 
 <?php

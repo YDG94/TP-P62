@@ -30,17 +30,17 @@ require_once('views/header.php');
                     <div class="container-figure">
 
                         <div class="figure">
-                            <img src="images/slider/bobber.jpg" alt="Photo Bobber"/>
+                            <img src="images/slider/bobber.jpg" alt="Photo Moto Bobber"/>
                             <p><strong>Villa Vue sur Mer aux Bahamas</strong>, <br><a href="">Détail de l'offre</a></p>
                         </div>
 
                         <div class="figure">
-                            <img src="images/slider/ninja_h2r.jpg.jpg" alt="Photo Ninja H2R"/>
+                            <img src="images/slider/show_room.jpg" alt="Photo Moto Hayabusa"/>
                             <p><strong>Villa Belrose en Guadeloupe</strong>, <br><a href="">Détail de l'offre</a></p>
                         </div>
 
                         <div class="figure">
-                            <img src="images/slider/y_z450.jpg.jpg" alt="Photo Y Z450"/>
+                            <img src="images/slider/engine.jpg" alt="Photo Moteur Ducati"/>
                             <p><strong>Villa Polimnia à Saint-Barth</strong>, <br><a href="">Détail de l'offre</a></p>
                         </div>
 

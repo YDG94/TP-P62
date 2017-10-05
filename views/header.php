@@ -5,7 +5,7 @@ $nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' 
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title><?= $title?></title>
+    <title><?= $title ?></title>
     <meta name="author" content="Dimitri Guillaume and Henoch Ndaya">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -25,7 +25,7 @@ $nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' 
     <!--DÉBUT HEADER-->
     <header>
         <h1>Tork Motorcycle</h1>
-        <div><img src="images/banner.jpg" alt="Bannière du site Tork"/></div>
+
 
         <!-- Barre de navigation -->
         <div id="mobile-nav">
@@ -39,11 +39,11 @@ $nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' 
             <!-- Fin menu hamburger -->
 
             <nav class="responsive-menu">
-            <ul>
-                <?php foreach ($nav as $link => $url) { ?>
-                    <li><a href="<?= $url ?>"><?= $link ?></a></li>
-                <?php } ?>
-            </ul>
-        </nav>
+                <ul>
+                    <?php foreach ($nav as $link => $url) { ?>
+                        <li><a href="<?= $url ?>"><?= $link ?></a></li>
+                    <?php } ?>
+                </ul>
+            </nav>
     </header>
     <!--FIN HEADER-->
