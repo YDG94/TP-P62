@@ -24,7 +24,7 @@ $motos = array(
         BIKE_IMG => 'images/cruiser/bobber.jpg',
         BIKE_ALT => 'Photo Moto Bobber',
         BIKE_PRICE => '14 499 $CAD',
-        BIKE_DESC => '',
+        BIKE_DESC => '<span>Si moins veux dire plus, cette moto est surchargée</span><br>Position écrasée. Gardes-boue tronqués. Pneus à crampons. Noircie et dépouillée. La Scout Bobber est sans superflu, tout est dans l\'attitude. Le seul endroit où nous ne sommes pas retenus : les 100 chevaux-vapeurs à peine domptés du moteur bicylindre en V de 69 pouces cubes. Tenez vous bien. Accrochez-vous. Votre légende ne fait que commencer.',
         BIKE_CAT => 40,
     ),
     42 => array(
@@ -32,7 +32,7 @@ $motos = array(
         BIKE_IMG => 'images/cruiser/gt_535.jpg',
         BIKE_ALT => 'Photo Moto GT 535',
         BIKE_PRICE => '9221.74 $CAD',
-        BIKE_DESC => '',
+        BIKE_DESC => 'La mode est au néo retro, mais avec cette Continental GT, Royl Enfield rejoint tout simplement l\'ère de la moto moderne. Laissant la case purement rétro aux autres modèles de sa gamme, les Bullet, Classic et Electra, la Continental GT 535 est une vision toute particulière de la moto simple et facile à l\'indienne. Motorisée par un très agréable monocylindre à refroidissement par air et boîte 5 vitesses, qui prend 36 cm3 et un peu de couple en plus, elle met en avant sa mécanique et son esthétique, tout en proposant un style Café Racer cher aux anglaises des années 70, avec selle monoplace, réservoir allongé, guidon bracelet avec rétroviseurs en bout de guidon.',
         BIKE_CAT => 40,
     ),
     43 => array(
@@ -40,7 +40,7 @@ $motos = array(
         BIKE_IMG => 'images/cruiser/softail.jpg',
         BIKE_ALT => 'Photo Moto Softail Slim',
         BIKE_PRICE => '18 199 $CAD',
-        BIKE_DESC => '',
+        BIKE_DESC => '<span>Le bon vieux temps revient aujourd\'hui</span><br>Un mélange parfait intégrant une touche classique, un style bobber à l\'état pur et toute la puissance du moteur High Output Twin Cam 103B à haut rendement. Un bolide moderne doté d\'une inimitable attitude robuste, style vieille école.<br>Le Softail Slim, c\'est la vieille école transformée pour vivre une nouvelle époque. Le guidon Hollywood, la roue arrière mince, la console "Cats Eye" et les marchepieds rappellent la naissance des motos Custom. Ces éléments empruints de nostalgie se marient avec des technologies de pointe, telles que le moteur High Output Twin Cam 103, une suspension dissimulée et de remarquables freins avec ABS. Tout à été pensé pour faire du Softail Slim une machine classique moderne',
         BIKE_CAT => 40,
     ),
     44 => array(
@@ -48,15 +48,15 @@ $motos = array(
         BIKE_IMG => 'images/cruiser/softail_s.jpg',
         BIKE_ALT => 'Photo Moto Softail Slim S',
         BIKE_PRICE => '22 999 $CAD',
-        BIKE_DESC => '',
+        BIKE_DESC => '<span>Le Muscle américain</span><br>Dans la rue, pour le respect, rien ne vaut la puissance. Lorsque nous avons développé le Softail Slim S, nous l\'avons équipé du plus puissant moteur disponible sur un cruiser.<br>Le style Bobber du Softail Slim passe au niveau suivant avec le moteur Screamin Eagle Air-Cooled Twin Cam 110B, le triple té de fourche et son réhausseur noirs, le cerclage de phare noir brillant, les caches-fourreaux, les tubes de fourche, les échappements Shotgun superposés avec silencieux biseautés, et les graphismes à thème militaire en option. Le Softail Slim S. Puissance moderne. Ligne traditionnelle.',
         BIKE_CAT => 40,
     ),
     45 => array(
-        BIKE_NAME => 'Triumph Thunderbird (2018)',
+        BIKE_NAME => 'Triumph Thunderbird Storm (2018)',
         BIKE_IMG => 'images/cruiser/thunderbird.jpg',
         BIKE_ALT => 'Photo Moto Thunderbird',
         BIKE_PRICE => '16 800 $CAD',
-        BIKE_DESC => '',
+        BIKE_DESC => 'La Thunderbird Storm abandonne le chrome et dévoile sa face la plus sombre, armée de son moteur imposant de 1700 cm3.<br>Conçue à partir de la Thunderbird, la Storm se démarque de sa grande soeur par son aspect plus trapu, sombre et minimaliste, et son couple ahurissant, qui ne manqueront pas de laisser leur empruinte sur la route.<br>Nous avons réussi à ajouter 102 cm3 à son moteur emblématique bicylindre parallèle. remarquablement maniable et couvrant une puissance effroyable, cette tornade noire n\'hésite pas à secouer le monde tranquille des cruisers.',
         BIKE_CAT => 40,
     ),
 
@@ -66,15 +66,15 @@ $motos = array(
         BIKE_IMG => 'images/sport/rsv4_rf.jpg',
         BIKE_ALT => 'Photo Moto RSV4 RF',
         BIKE_PRICE => '23 995 $CAD',
-        BIKE_DESC => '',
+        BIKE_DESC => 'L\'Aprilia RSV4 continue d\'évoluer pour rester la meilleure superbike jamais produite à ce jour. Résultat d\'un projet extraordinaire, né de l\'expérience et du succès d\'Aprilia dans le monde de la compétition. Une seconde au tour de gagnée comparée aux versions précédentes grâce aux nouvelles suspensions Öhlins, aux nouveaux freins et au nouveau package d\'assistance au pilotage, APRC qui comprende le C-ABS et le DOWNSHIFTER. Le chassis sept fois champion du Monde de Superbike est maintenant combiné à un moteur de 201 CV Euro 4.',
         BIKE_CAT => 50,
     ),
     52 => array(
-        BIKE_NAME => 'Suzuki Hayabusa (2017)',
+        BIKE_NAME => 'Suzuki Hayabusa GSX 1300R(2017)',
         BIKE_IMG => 'images/sport/hayabusa.jpg',
         BIKE_ALT => 'Photo Moto Hayabusa',
         BIKE_PRICE => '15 399 $CAD',
-        BIKE_DESC => '',
+        BIKE_DESC => 'La Sportive Ultime. Dans une Esthétique intemporelle.<br>Il y a plus d\'une décennie, Suzuki a développé une machine tellement unique qu\'elle a instantanément attiré un public fidèle dans le monde entier. Comme son homonyme, le faucon pèlerin japonais, l\'Hayabusa est célèbre pour couper à travers l\'air avec une agilité et des performances incroyables.<br>Grâce à d\'innombrables améliorations d\'ingénierie de sa conception originale, l\'esprit de la Hayabusa persiste. En 2014, le modèle a reçu des étriers monoblocs Brembo de haute performance et un système de freins antiblocages ABS. Sa performance incomparable offre des randonnées amusantes et sportives à toute les vitesses, reflétant son caractère Sport Ultime.',
         BIKE_CAT => 50,
     ),
     53 => array(
@@ -86,11 +86,11 @@ $motos = array(
         BIKE_CAT => 50,
     ),
     54 => array(
-        BIKE_NAME => 'Ducati Panigale 1299R Final Edition (2018)',
+        BIKE_NAME => 'Ducati Panigale 1299 R Final Edition (2018)',
         BIKE_IMG => 'images/sport/panigale.jpg',
-        BIKE_ALT => 'Photo Moto Panigale 1299R',
+        BIKE_ALT => 'Photo Moto Panigale 1299 R',
         BIKE_PRICE => '47 995 $CAD',
-        BIKE_DESC => '',
+        BIKE_DESC => '<span>Quand la fin raconte toute l\'Histoire</span><br>C\'est la célébration de l\'héritage des bicylindres Superbikes Ducati. Nous avons combiné le plus perfectionné châssis monocoque en aluminium avec notre moteur Superquadro le plus puissant afin de réaliser la Panigale 1299 R Final Edition. Pour les pilotes passionnés prêts à posséder la pls importante partie de l\'histoire du V-twin Ducati, complétée par une livrée spécifique et un té de fourche numéroté.',
         BIKE_CAT => 50,
     ),
     55 => array(
@@ -99,6 +99,7 @@ $motos = array(
         BIKE_ALT => 'Photo Moto Ninja H2R',
         BIKE_PRICE => '61 200 $CAD',
         BIKE_DESC => '',
+        BIKE_URL => 'ninja_detail.php',
         BIKE_CAT => 50,
     ),
 

@@ -26,6 +26,8 @@ $nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' 
     <header>
         <h1>Tork Motorcycle</h1>
 
+        <!--Icone du panier-->
+        <a href="#"><img src="images/boutons/shop.png" alt="Image du panier d'achat"/></a>
 
         <!-- Barre de navigation -->
         <div id="mobile-nav">

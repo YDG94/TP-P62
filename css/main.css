@@ -30,7 +30,7 @@ input:focus, textarea:focus {
 /*DESIGN MOBILE FIRST*/
 #wrapper {
     width: 100%;
-    background-color: black;
+    background-color: #000;
 }
 
 /*DEBUT HEADER*/
@@ -164,7 +164,7 @@ a:visited {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background: #ff6666;
+    background: #fff;
     border-radius: 50%;
 }
 
@@ -200,12 +200,50 @@ a:visited {
 /*FIN INDEX*/
 
 /*DEBUT MOTOS*/
+#motos ul {
+    padding-left: 0;
+}
+
+#motos ul li {
+    list-style: none;
+    margin: 3em 0;
+}
+
+#motos ul li a {
+    text-decoration: none;
+}
+
+#motos h2 {
+    position: absolute;
+    left: 9em;
+}
+
+#motos h2:nth-of-type(1){
+    top:1em;
+}
+
+#motos img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    border: 5px solid grey;
+    border-radius: 20px;
+}
 
 /*FIN MOTOS*/
 
-/*DEBUT LOG IN*/
+/*DEBUT PRODUITS */
 
-/*FIN LOG IN*/
+/*FIN PRODUITS*/
+
+/*DEBUT DETAIL NINJA */
+
+/*FIN DETAIL NINJA*/
+
+/* DEBUT FORM ACHAT*/
+
+/* FIN FORM ACHAT*/
 
 /*DEBUT CONTACT */
 #contact fieldset {
