@@ -1,5 +1,5 @@
 <?php
-$title='Tork | Motorcycle';
+$title = 'Tork | Motorcycle';
 require_once('views/header.php');
 
 ?>
@@ -8,7 +8,7 @@ require_once('views/header.php');
 <!--DÉBUT MAIN -->
 <main id="index">
 
-<!--    Slider des produits vedettes-->
+    <!--    Slider des produits vedettes-->
     <!-- Carrousel Accueil -->
     <section id="slideshow-index">
 
@@ -31,17 +31,20 @@ require_once('views/header.php');
 
                         <div class="figure">
                             <img src="images/slider/bobber.jpg" alt="Photo Moto Bobber"/>
-                            <p><strong>Villa Vue sur Mer aux Bahamas</strong>, <br><a href="">Détail de l'offre</a></p>
+                            <p><strong>Le Renouveau d'une Légende, l'Indian Scout Bobber</strong> <br><a
+                                        href="cruiser.php">Voir notre Catalogue Cruiser</a></p>
                         </div>
 
                         <div class="figure">
                             <img src="images/slider/show_room.jpg" alt="Photo Moto Hayabusa"/>
-                            <p><strong>Villa Belrose en Guadeloupe</strong>, <br><a href="">Détail de l'offre</a></p>
+                            <p><strong>Plus Rapide, Plus Puissante, La Nouvelle Suzuki Hayabusa</strong> <br><a
+                                        href="sport.php">Voir notre Catalogue Sport</a></p>
                         </div>
 
                         <div class="figure">
-                            <img src="images/slider/engine.jpg" alt="Photo Moteur Ducati"/>
-                            <p><strong>Villa Polimnia à Saint-Barth</strong>, <br><a href="">Détail de l'offre</a></p>
+                            <img src="images/slider/engine.jpg" alt="Photo Pot d'échappement Akrapovic"/>
+                            <p><strong>Un Design Épuré pour des Performances Élevées </strong> <br><a href="#">Voir les
+                                    Évènements Ducati</a></p>
                         </div>
 
                     </div>
@@ -69,9 +72,12 @@ require_once('views/header.php');
     <!--    Paragraphe de présentation-->
     <section id="presentation">
         <h2>La liberté n'a pas de prix, alors foncez...</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.</p>
     </section>
-
 
 
 </main>
