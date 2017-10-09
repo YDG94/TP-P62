@@ -19,12 +19,12 @@ if (array_key_exists('cat_id', $_GET) && array_key_exists($_GET['cat_id'], $cate
             <?php foreach ($motos as $id => $bike) {
                 if ($cat_id == $bike[BIKE_CAT]) { ?>
                     <li>
+                        <h2><?= $bike[BIKE_NAME] ?></h2>
                         <a href="<?= $bike[BIKE_URL] ?>?prod_id=<?= $id ?>">
-                            <h3><?= $bike[BIKE_NAME] ?></h3>
                             <img src="<?= $bike[BIKE_IMG] ?>" alt="<?= $bike[BIKE_ALT] ?>"/>
-                            <h4><?= $bike[BIKE_PRICE] ?></h4>
-                            <p><?= $bike[BIKE_DESC] ?></p>
                         </a>
+                        <h4><?= $bike[BIKE_PRICE] ?></h4>
+                        <p><?= $bike[BIKE_DESC] ?></p>
                     </li>
 
                 <?php }
