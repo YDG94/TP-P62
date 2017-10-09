@@ -15,6 +15,7 @@ $nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' 
     <meta property="og:title" content="Tork"/>
     <meta property="og:description" content=""/>
     <meta property="og:image" content=""/>
+    <link rel="logo" href="logo.ico"/>
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Jim+Nightshade" rel="stylesheet">
     <script src="https://use.fontawesome.com/639c474b7d.js"></script>
@@ -24,7 +25,8 @@ $nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' 
 <div id="wrapper">
     <!--DÉBUT HEADER-->
     <header>
-        <h1>Tork Motorcycle</h1>
+        <img src="images/tork.jpg" alt="Logo du site Tork"/>
+        <h1>Motorcycle</h1>
 
         <!--Icone du panier-->
         <a href="#"><img src="images/boutons/shop.png" alt="Image du panier d'achat"/></a>
