@@ -1,5 +1,5 @@
 <?php
-$nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' => 'contact.php', 'Evènements' => 'event.php');
+$nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' => 'contact.php', 'Évènements' => 'event.php');
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -25,11 +25,12 @@ $nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' 
 <div id="wrapper">
     <!--DÉBUT HEADER-->
     <header>
-        <img src="images/tork.jpg" alt="Logo du site Tork"/>
-        <h1>Motorcycle</h1>
+        <div>
+            <a href="index.php"><img src="images/tork.jpg" alt="Logo du site Tork"/></a>
 
-        <!--Icone du panier-->
-        <a href="#"><img src="images/boutons/shop.png" alt="Image du panier d'achat"/></a>
+            <!--Icone du panier-->
+            <a href="#"><img src="images/boutons/shop_alt.png" alt="Image du panier d'achat"/></a>
+        </div>
 
         <!-- Barre de navigation -->
         <div id="mobile-nav">
