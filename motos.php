@@ -8,9 +8,10 @@ require_once('defines.php');
         <!--   Catalogue des motos  (catégories) -->
         <ul>
             <?php foreach ($categories as $ind => $cat) { ?>
-                <li><a href="<?= $cat[BIKE_CAT_URL] ?>?id=<?= $ind?>">
-                        <img src="<?= $cat[BIKE_CAT_IMG] ?>" alt="<?= $cat[BIKE_CAT_ALT] ?>"/>
+                <li><a href="<?= $cat[BIKE_CAT_URL] ?>?cat_id=<?= $ind ?>">
                         <h2><?= $cat[BIKE_CAT_NAME] ?></h2>
+                        <img src="<?= $cat[BIKE_CAT_IMG] ?>" alt="<?= $cat[BIKE_CAT_ALT] ?>"/>
+
                     </a></li>
             <?php } ?>
         </ul>
