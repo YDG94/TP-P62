@@ -1,4 +1,5 @@
 <?php
+$title = 'Ninja H2R 2018 | Tork Motorcycle';
 require_once('views/header.php');
 ?>
 

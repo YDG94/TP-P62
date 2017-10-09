@@ -9,7 +9,7 @@ define('BIKE_CAT_URL', 'bike_cat_url');
 // Constante pour les motos
 define('BIKE_NAME', 'bike_name');
 define('BIKE_IMG', 'bike_img');
-define('BIKE_ALT', 'bike_img');
+define('BIKE_ALT', 'bike_alt');
 define('BIKE_DESC', 'bike_desc');
 define('BIKE_PRICE', 'bike_price');
 define('BIKE_CAT', 'bike_cat');
