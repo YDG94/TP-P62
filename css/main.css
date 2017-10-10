@@ -43,7 +43,7 @@ header img[alt*="Logo du site"] {
 
 }
 
-header img[alt*="Image du panier"] {
+header img[alt*="Image du Like"] {
     height: 75px;
     width: auto;
     align-self: flex-end;
