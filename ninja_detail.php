@@ -1,5 +1,5 @@
 <?php
-$title = 'Kawasaki Ninja H2R 2018 | Tork Motorcycle';
+$title = 'Détail | Tork Motorcycle';
 require_once('views/header.php');
 require_once('defines.php');
 
@@ -23,6 +23,8 @@ if (array_key_exists('prod_id', $_GET) && array_key_exists($_GET['prod_id'], $mo
             <?php
         }
     } ?>
+
+    <a href="form_achat.php"><button>Procéder à l'achat</button></a>
 </main>
 
 <?php
