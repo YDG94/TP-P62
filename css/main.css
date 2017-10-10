@@ -406,6 +406,19 @@ iframe {
     margin: auto;
 }
 
+/* Classe pour les sections invalids du formulaire */
+#contact .invalid {
+    border-radius: 5px;
+    background-color: #fff6f8;
+    border: 1px solid red;
+}
+
+/* Classe pour les messages de validation */
+#contact .msg_validation {
+    font-weight: bolder;
+}
+
+
 /*FIN CONTACT */
 
 /*DEBUT FOOTER*/
