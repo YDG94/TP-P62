@@ -398,6 +398,11 @@ input[type="submit"], input[type="reset"] {
     height: 50px;
 }
 
+#contact form div {
+    margin:1em auto;
+    width:100%;
+}
+
 iframe {
     display: block;
     width: 20em;
@@ -409,7 +414,7 @@ iframe {
 /* Classe pour les sections invalids du formulaire */
 #contact .invalid {
     border-radius: 5px;
-    background-color: #fff6f8;
+    background-color: burlywood;
     border: 1px solid red;
 }
 
@@ -544,6 +549,11 @@ footer ul a {
         display: block;
         margin: 0.5em 0;
         height: 50px;
+    }
+
+    #contact form div {
+        margin:1em 0;
+        width:50%;
     }
 
     iframe {
