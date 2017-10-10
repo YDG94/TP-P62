@@ -7,18 +7,20 @@ require_once('defines.php');
 $prod_id = '';
 if (array_key_exists('prod_id', $_GET) && array_key_exists($_GET['prod_id'], $motos)) {
     $prod_id = $_GET['prod_id'];
+}else {
+    header('Location:index.php');
+    exit;
 }
 ?>
 
 <main id="ninja">
     <?php foreach ($motos as $id => $bike) {
-        if ($prod_id == $bike) {
-            ?>
+        if ($prod_id == $id) { ?>
             <h3><?= $bike[BIKE_NAME] ?></h3>
             <img src="<?= $bike[BIKE_IMG] ?>" alt="<?= $bike[BIKE_ALT] ?>"/>
             <h4><?= $bike[BIKE_PRICE] ?></h4>
             <p><?= $bike[BIKE_DESC] ?></p>
-        <?php
+            <?php
         }
     } ?>
 </main>
