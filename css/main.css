@@ -278,6 +278,10 @@ a:visited {
 
 /*FIN MOTOS*/
 
+/*DEBUT LIKE*/
+
+/*FIN LIKE*/
+
 /*DEBUT PRODUITS */
 
 #cruiser, #sport, #offroad {
@@ -325,20 +329,21 @@ a:visited {
 #ninja {
     padding: 1em;
 }
-#ninja img{
-    box-shadow: 10px 10px 5px darkolivegreen ;
+
+#ninja img {
+    box-shadow: 10px 10px 5px darkolivegreen;
 }
 
 #ninja h4, #ninja p {
     color: whitesmoke;
     font-family: "Black Ops One", cursive;
-    font-size:120%;
+    font-size: 120%;
 }
 
 #ninja h3 {
     color: darkolivegreen;
     font-family: "Black Ops One", cursive;
-    font-size:150%;
+    font-size: 150%;
 }
 
 #ninja button {
@@ -381,7 +386,7 @@ a:visited {
     margin: 0.5em auto;
 }
 
-input[type="submit"], input[type="reset"] {
+#contact input[type="submit"], input[type="reset"] {
     background: linear-gradient(black, grey);
     font-size: 20px;
     font-family: Verdana, sans-serif;
@@ -399,8 +404,8 @@ input[type="submit"], input[type="reset"] {
 }
 
 #contact form div {
-    margin:1em auto;
-    width:100%;
+    margin: 1em auto;
+    width: 100%;
 }
 
 iframe {
@@ -422,7 +427,6 @@ iframe {
 #contact .msg_validation {
     font-weight: bolder;
 }
-
 
 /*FIN CONTACT */
 
@@ -552,8 +556,8 @@ footer ul a {
     }
 
     #contact form div {
-        margin:1em 0;
-        width:50%;
+        margin: 1em 0;
+        width: 50%;
     }
 
     iframe {
