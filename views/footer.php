@@ -1,5 +1,5 @@
 <?php
-$foot_nav = array('Nous contacter' => 'contact.php', 'Notre boutique' => '', 'Plan du site' => 'site_map.php', 'Mentions légales' => '');
+$foot_nav = array('Nous contacter' => 'contact.php', 'Notre boutique' => '', 'Plan du site' => '#', 'Mentions légales' => '');
 ?>
 <!--DÉBUT FOOTER-->
 <footer class="row">
