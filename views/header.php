@@ -1,5 +1,5 @@
 <?php
-$nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' => 'contact.php', 'Évènements' => 'event.php');
+$nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' => 'contact.php', 'Évènements' => '#');
 ?>
 <!DOCTYPE html>
 <html lang="fr">
