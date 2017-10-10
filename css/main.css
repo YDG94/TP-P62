@@ -86,7 +86,7 @@ header > div:first-child {
     padding: 0.5em;
 }
 
-.menu-btn:hover, #recherche:hover, a, .accordeon-btn:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+.menu-btn:hover, #recherche:hover, a, .accordeon-btn:hover, input[type="submit"]:hover, input[type="reset"]:hover, #ninja button:hover {
     cursor: pointer;
 }
 
@@ -256,11 +256,12 @@ a:visited {
     list-style: none;
     margin: 3em 0;
 }
+
 #motos h2 {
     font-size: 150%;
     color: whitesmoke;
     font-family: 'Black Ops One', cursive;
-    text-align:center;
+    text-align: center;
 }
 
 #motos ul li a {
@@ -320,6 +321,34 @@ a:visited {
 /*FIN PRODUITS*/
 
 /*DEBUT DETAIL NINJA */
+
+#ninja {
+    padding: 1em;
+}
+#ninja img{
+    box-shadow: 10px 10px 5px darkolivegreen ;
+}
+
+#ninja h4, #ninja p {
+    color: whitesmoke;
+    font-family: "Black Ops One", cursive;
+    font-size:120%;
+}
+
+#ninja h3 {
+    color: darkolivegreen;
+    font-family: "Black Ops One", cursive;
+    font-size:150%;
+}
+
+#ninja button {
+    background: linear-gradient(black, darkred);
+    font-size: 105%;
+    color: whitesmoke;
+    height: 50px;
+    border-radius: 30%;
+    font-family: "Black Ops One", cursive;
+}
 
 /*FIN DETAIL NINJA*/
 
