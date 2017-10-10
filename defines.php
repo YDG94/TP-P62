@@ -76,7 +76,7 @@ $motos = array(
         BIKE_CAT => 50,
     ),
     52 => array(
-        BIKE_NAME => 'Suzuki Hayabusa GSX 1300R(2017)',
+        BIKE_NAME => 'Suzuki Hayabusa GSX 1300R (2017)',
         BIKE_IMG => 'images/sport/hayabusa.jpg',
         BIKE_ALT => 'Photo Moto Hayabusa',
         BIKE_PRICE => '15 399 $CAD',
