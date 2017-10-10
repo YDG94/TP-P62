@@ -35,10 +35,25 @@ input:focus, textarea:focus {
 
 /*DEBUT HEADER*/
 
-h1 {
-    color: #fff;
-    font-family: 'Jim Nightshade', cursive;
-    font-size: 3.5em;
+header img[alt*="Logo du site"] {
+    height: 120px;
+    width: auto;
+    border: 3px solid grey;
+    border-radius: 45%;
+
+}
+
+header img[alt*="Image du panier"] {
+    height: 75px;
+    width: auto;
+    align-self: flex-end;
+}
+
+header > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 /* Barre de navigation */
@@ -129,6 +144,11 @@ a:visited {
 /*FIN HEADER*/
 
 /*DEBUT INDEX*/
+
+#index {
+    padding: 1em;
+}
+
 /* SLIDER */
 #overflow {
     width: 100%;
@@ -137,6 +157,8 @@ a:visited {
 
 .figure img {
     width: 100%;
+    border: 5px solid grey;
+    border-radius: 10px;
 }
 
 .container-figure {
@@ -151,9 +173,10 @@ a:visited {
 }
 
 .figure p {
-    margin: -3.85em auto;
+    margin: -4.85em auto;
     opacity: 0.7;
     width: 100%;;
+    font-family: 'Black Ops One', cursive;
 }
 
 #active {
@@ -164,7 +187,7 @@ a:visited {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background: #fff;
+    background: linear-gradient(darkslategrey, darkred);
     border-radius: 50%;
 }
 
@@ -196,11 +219,36 @@ a:visited {
     position: absolute;
 }
 
+/*FIN SLIDER*/
+
+#index section {
+    margin: 3em 0;
+}
+
+#presentation {
+    background: linear-gradient(black, darkred);
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+
+#index h2 {
+    color: whitesmoke;
+    font-size: 150%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#index p {
+    color: whitesmoke;
+    font-size: 120%;
+    text-align: center;
+}
+
 /* FIN SLIDER */
 /*FIN INDEX*/
 
 /*DEBUT MOTOS*/
-#motos ul {
+#motos ul, #cruiser ul, #sport ul, #offroad ul {
     padding-left: 0;
 }
 
@@ -208,22 +256,18 @@ a:visited {
     list-style: none;
     margin: 3em 0;
 }
+#motos h2 {
+    font-size: 150%;
+    color: whitesmoke;
+    font-family: 'Black Ops One', cursive;
+    text-align:center;
+}
 
 #motos ul li a {
     text-decoration: none;
 }
 
-#motos h2 {
-    position: absolute;
-    left: 9em;
-}
-
-#motos h2:nth-of-type(1){
-    top:1em;
-}
-
 #motos img {
-    position: relative;
     display: block;
     margin: 0 auto;
     max-width: 80%;
@@ -234,6 +278,44 @@ a:visited {
 /*FIN MOTOS*/
 
 /*DEBUT PRODUITS */
+
+#cruiser, #sport, #offroad {
+    padding: 1em;
+}
+
+#cruiser ul li, #sport ul li, #offroad ul li {
+    border: 5px solid grey;
+    padding: 1em;
+    margin: 3em 0;
+    border-radius: 15px;
+    background: linear-gradient(black, darkred);
+}
+
+#cruiser h2, #cruiser h4, #sport h2, #sport h4, #offroad h2, #offroad h4 {
+    font-size: 150%;
+    color: whitesmoke;
+    font-family: 'Black Ops One', cursive;
+    margin: 0 auto;
+}
+
+#cruiser img, #sport img, #offroad img {
+    display: block;
+    margin: 1em auto;
+    border: 3px solid grey;
+    border-radius: 15px;
+}
+
+#cruiser p, #sport p, #offroad p {
+    color: whitesmoke;
+    font-family: 'Black Ops One', cursive;
+    font-size: 120%;
+    text-align: left;
+}
+
+#cruiser p span, #sport p span, #offroad p span {
+    font-size: 125%;
+    color: grey;
+}
 
 /*FIN PRODUITS*/
 
@@ -364,6 +446,12 @@ footer ul a {
 
 /*VERSION TABLETTE*/
 @media only screen and (min-width: 768px) {
+
+    header > div:first-child {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
     .menu-btn {
         display: none;
