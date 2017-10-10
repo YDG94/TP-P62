@@ -29,7 +29,7 @@ $nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' 
             <a href="index.php"><img src="images/tork.jpg" alt="Logo du site Tork"/></a>
 
             <!--Icone du panier-->
-            <a href="views/like.php"><img src="images/boutons/like.png" alt="Image du Like"/></a>
+            <a href="like.php"><img src="images/boutons/like.png" alt="Image du Like"/></a>
         </div>
 
         <!-- Barre de navigation -->
