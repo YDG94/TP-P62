@@ -15,7 +15,7 @@ $nav = array('Accueil' => 'index.php', 'Motos' => 'motos.php', 'Nous Contacter' 
     <meta property="og:title" content="Tork"/>
     <meta property="og:description" content=""/>
     <meta property="og:image" content=""/>
-    <link rel="logo" href="logo.ico"/>
+    <link rel="icon" href="logo.ico"/>
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
     <script src="https://use.fontawesome.com/639c474b7d.js"></script>
