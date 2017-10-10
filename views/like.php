@@ -1,7 +1,7 @@
 <?php
 $title = 'Favoris | Tork Motorcycle';
-require_once('views/header.php');
-require_once('defines.php');
+require_once('header.php');
+require_once('../defines.php');
 ?>
 
 <main id="like">
@@ -9,5 +9,5 @@ require_once('defines.php');
 </main>
 
 <?php
-require_once('views/footer.php');
+require_once('footer.php');
 ?>
