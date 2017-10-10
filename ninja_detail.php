@@ -16,6 +16,7 @@ if (array_key_exists('prod_id', $_GET) && array_key_exists($_GET['prod_id'], $mo
 <main id="ninja">
     <?php foreach ($motos as $id => $bike) {
         if ($prod_id == $id) { ?>
+            <button>Ajouter aux Favoris</button>
             <h3><?= $bike[BIKE_NAME] ?></h3>
             <img src="<?= $bike[BIKE_IMG] ?>" alt="<?= $bike[BIKE_ALT] ?>"/>
             <h4><?= $bike[BIKE_PRICE] ?></h4>
