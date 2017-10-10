@@ -4,7 +4,7 @@ require_once('views/header.php');
 //var_dump($_SERVER['REQUEST_METHOD']);
 //var_dump($_POST);
 
-$input_full = array_key_exists('nom', $_POST) && array_key_exists('prenom', $_POST) && array_key_exists('courriel', $_POST);
+$input_full = array_key_exists('nom', $_POST) && array_key_exists('prenom', $_POST) && array_key_exists('courriel', $_POST)&& array_key_exists('msg',$_POST);
 ?>
 
     <main id="contact">
@@ -22,7 +22,7 @@ $input_full = array_key_exists('nom', $_POST) && array_key_exists('prenom', $_PO
                 <input type="email" id="courriel" name="courriel" placeholder="user@yahoo.com"
                        value="<?= $input_full ? $_POST['courriel'] : '' ?>">
                 <label for="msg">Nous laisser un commentaire :</label>
-                <textarea id="msg" name="msg" placeholder="Écrivez votre message ici" maxlength="100"></textarea>
+                <textarea id="msg" name="msg" placeholder="Écrivez votre message ici" maxlength="100"><?= $input_full ? $_POST['msg'] : '' ?></textarea>
                 <input type="submit" value="Envoyer">
                 <input type="reset" value="Réinitialiser">
             </fieldset>
