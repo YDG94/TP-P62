@@ -313,6 +313,22 @@ a:visited {
 
 /*FIN LIKE*/
 
+/*DEBUT RESULT*/
+
+#result {
+    padding:5em;
+}
+
+#result p {
+    color: whitesmoke;
+    font-family: "Black Ops One", cursive;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom:15em;
+}
+
+/*FIN RESULT*/
+
 /*DEBUT PRODUITS */
 
 #cruiser, #sport, #offroad, #like {
