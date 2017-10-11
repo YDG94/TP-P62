@@ -38,7 +38,7 @@ if (array_key_exists('like', $_POST)) {
                     <h3><?= $bike[BIKE_NAME] ?></h3>
                     <img src="<?= $bike[BIKE_IMG] ?>" alt="<?= $bike[BIKE_ALT] ?>"/>
                     <h4><?= $bike[BIKE_PRICE] ?></h4>
-                    <button><a href="form_achat.php">Procéder à l'achat</a></button>
+                    <a href="form_achat.php"><button>Procéder à l'achat</button></a>
 
                 </li>
             <?php } ?>
