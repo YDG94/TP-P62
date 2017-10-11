@@ -86,7 +86,7 @@ header > div:first-child {
     padding: 0.5em;
 }
 
-.menu-btn:hover, #recherche:hover, a, .accordeon-btn:hover, input[type="submit"]:hover, input[type="reset"]:hover, #ninja button:hover {
+.menu-btn:hover, #recherche:hover, a, .accordeon-btn:hover, input[type="submit"]:hover, input[type="reset"]:hover, #ninja button:hover, #like button:hover {
     cursor: pointer;
 }
 
@@ -279,16 +279,47 @@ a:visited {
 /*FIN MOTOS*/
 
 /*DEBUT LIKE*/
+#like h1 {
+    text-decoration: underline;
+    font-size: 200%;
+    color: whitesmoke;
+    font-family: 'Black Ops One', cursive;
+}
+
+#like h3, #like h4 {
+    text-align: center;
+}
+
+#like ul {
+    padding-left: 0;
+}
+
+#like a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#like button {
+    display: block;
+    background: linear-gradient(black, darkred);
+    font-size: 105%;
+    color: whitesmoke;
+    height: 50px;
+    border-radius: 30%;
+    font-family: "Black Ops One", cursive;
+    margin: 1em auto;
+    text-decoration: none;
+}
 
 /*FIN LIKE*/
 
 /*DEBUT PRODUITS */
 
-#cruiser, #sport, #offroad {
+#cruiser, #sport, #offroad, #like {
     padding: 1em;
 }
 
-#cruiser ul li, #sport ul li, #offroad ul li {
+#cruiser ul li, #sport ul li, #offroad ul li, #like ul li {
     list-style: none;
     border: 5px solid grey;
     padding: 1em;
@@ -297,14 +328,14 @@ a:visited {
     background: linear-gradient(black, darkred);
 }
 
-#cruiser h2, #cruiser h4, #sport h2, #sport h4, #offroad h2, #offroad h4 {
+#cruiser h2, #cruiser h4, #sport h2, #sport h4, #offroad h2, #offroad h4, #like h3, #like h4 {
     font-size: 150%;
     color: whitesmoke;
     font-family: 'Black Ops One', cursive;
     margin: 0 auto;
 }
 
-#cruiser img, #sport img, #offroad img {
+#cruiser img, #sport img, #offroad img, #like img {
     display: block;
     margin: 1em auto;
     border: 3px solid grey;
@@ -359,6 +390,190 @@ a:visited {
 /*FIN DETAIL NINJA*/
 
 /* DEBUT FORM ACHAT*/
+
+#form_achat {
+    width: 100%;
+
+}
+
+.civil {
+    color: slategray;
+}
+
+#premier {
+    margin-left: 380px;
+}
+
+#dernier {
+    padding-top: 20px;
+    color: slategray;
+}
+
+.flotteur {
+    float: right;
+    width: 30px;
+    margin-top: 14px;
+}
+
+.invala {
+    border: 3px red solid;
+    background-color: firebrick !important;
+}
+
+.invala2 {
+    border: 2px solid red;
+}
+
+.debut {
+    color: white;
+    font-family: cursive;
+}
+
+#submito {
+    margin-left: 400px;
+    background-color: darkorange;
+    box-shadow: slategray 5px 5px 2px;
+}
+
+#monForm {
+    background-color: rgb(12, 15, 0);
+    padding: 20px;
+}
+
+.casa {
+    width: 20px;
+    height: 15px;
+    background-color: darkcyan;
+}
+
+#divForma1 label {
+    display: block;
+    float: left;
+    width: 80%;
+    margin-top: 10px;
+    color: darkseagreen;
+    font-weight: 1.8em;
+
+}
+
+#divForma1 input {
+    float: left;
+    width: 60%;
+    margin-top: 10px;
+    height: 30px;
+    border: 2px silver ridge;
+    background-color: darkolivegreen;
+    color: floralwhite;
+    border-radius: 4px;
+    padding-left: 8px;
+}
+
+/*forma2*/
+.divForma {
+    clear: both;
+    height: auto;
+}
+
+#divForma2 label {
+    display: block;
+    float: left;
+    width: 80%;
+    margin-top: 10px;
+    color: darkseagreen;
+
+}
+
+#divForma2 input {
+    float: left;
+    width: 95%;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 4px;
+    padding-left: 8px;
+    background-color: darkolivegreen;
+    color: floralwhite;
+}
+
+#num {
+    width: 40%;
+!important;
+}
+
+/*forma3*/
+#divForma3 {
+    padding: 20px 0 0 0;
+}
+
+#divForma3 label {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    color: darkseagreen;
+}
+
+#divForma3 textarea {
+    float: left;
+    width: 95%;
+    margin-top: 10px;
+    height: 120px;
+    border: 2px silver ridge;
+    background-color: darkslategray;
+    color: floralwhite;
+    border-radius: 4px;
+    padding-left: 8px;
+}
+
+#divForma3 input, select {
+    float: left;
+    width: 40%;
+    margin-top: 10px;
+    height: 35px;
+    border: 2px silver ridge;
+    background-color: darkolivegreen;
+    color: floralwhite;
+    border-radius: 4px;
+    padding-left: 8px;
+}
+
+/*forma4*/
+
+#divForma4 {
+    padding: 20px;
+
+}
+
+#divForma4 label {
+    display: block;
+    margin-bottom: 15px;
+    color: darkseagreen;
+
+}
+
+#divForma4 input {
+    float: left;
+    margin-right: 10px;
+}
+
+#submito {
+    clear: both;
+    width: 40%;
+    height: 40px;
+}
+
+#carta {
+    width: 90%;
+    margin-left: 20px;
+}
+
+/* class pour message d'erreur*/
+
+.alert {
+    clear: both;
+    color: red;
+    font-size: medium;
+    font-style: italic;
+}
 
 /* FIN FORM ACHAT*/
 
@@ -569,6 +784,14 @@ footer ul a {
         margin: 0;
     }
 
+    #monForm {
+        width: 60%;
+    }
+
+    #carta {
+        width: 50%;
+    }
+
     /*Grille version tablette*/
     /* On définit les classes pour chaque largeur de colonne pour la version tablette */
     .col-m-1 {
@@ -623,6 +846,14 @@ footer ul a {
 /*VERSION DESKTOP*/
 @media only screen and (min-width: 992px) {
 
+    #monForm {
+        width: 60%;
+    }
+
+    #carta {
+        width: 55%;
+    }
+
     /*Grille version desktop*/
     /* On définit les classes pour chaque largeur de colonne pour la version desktop */
     .col-1 {
@@ -674,8 +905,15 @@ footer ul a {
     }
 }
 
+@media only screen and (min-width: 1400px) {
+    #monForm {
+        width: 40%;
+    }
 
-
+    #carta {
+        width: 36%;
+    }
+}
 
 
 
