@@ -169,4 +169,6 @@ require_once('views/header.php');
 
 <?php
 require_once('views/footer.php');
+unset($_SESSION['input']);
+unset($_SESSION['errors']);
 ?>
