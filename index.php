@@ -32,13 +32,13 @@ require_once('views/header.php');
                         <div class="figure">
                             <img src="images/slider/bobber.jpg" alt="Photo Moto Bobber"/>
                             <p><strong>Le Renouveau d'une Légende, l'Indian Scout Bobber</strong> <br><a
-                                        href="#">Voir notre Catalogue Cruiser</a></p>
+                                        href="ninja_detail.php?prod_id=41">Détail de l'Offre</a></p>
                         </div>
 
                         <div class="figure">
                             <img src="images/slider/show_room.jpg" alt="Photo Moto Hayabusa"/>
                             <p><strong>Plus Rapide, Plus Puissante, La Nouvelle Suzuki Hayabusa</strong> <br><a
-                                        href="#">Voir notre Catalogue Sport</a></p>
+                                        href="ninja_detail.php?prod_id=52">Détail de l'Offre</a></p>
                         </div>
 
                         <div class="figure">
